@@ -1,0 +1,167 @@
+body {
+    font-family: FreeMono, monospace;
+    margin: 20px;
+    padding: 0;
+    background-color: #e3e3e3;
+}
+
+h1 {
+    text-align: left;
+    font-weight: 900;
+    border-top: 10px solid black;
+    border-right: 10px solid black;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 80px;
+}
+
+.esialgu {
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.driver-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.driver-card {
+    font-family: FreeMono, monospace;
+    font-size: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: 350px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.driver-card h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+.driver-card p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.driver-info {
+    font-size: 40px;
+    font-family: FreeMono, monospace;
+    flex: 1; 
+}
+
+.driver-image {
+    width: 100px; 
+    height: 100px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+
+
+.aken {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    font-family: FreeMono, monospace;
+}
+
+
+
+.aken-content {
+    font-family: FreeMono, monospace;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+    position: relative;
+}
+
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #555;
+}
+
+
+body.aken-open {
+    overflow: hidden;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #c8c8c8;
+    color: #fff;
+    height: 70px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 5px;
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    height: 40px;
+    width: 40px;
+    background-color: #c8c8c8;
+}
+
+
+.nupud {
+    display: flex;
+    gap: 20px;
+    background-color: #c8c8c8;
+}
+
+.nupud button {
+    padding: 10px 30px;
+    background-color: #9f9f9f;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: FreeMono, monospace;
+
+}
+
+.nupud button:hover {
+    background-color: #767676;
+}
+
+#loading-sonum {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+    white-space: pre-line;
+    margin-left: 30px;
+    margin-right: 30px;
+}
